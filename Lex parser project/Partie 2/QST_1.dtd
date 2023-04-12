@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!ELEMENT Reseaux(Hote*)>
+<!ELEMENT Hote(Adresse_IP,Liste_port) >
+<!ELEMENT Adresse_IP(#PCDATA) >
+<!ELEMENT Liste_port(numero,etat) >
+<!ELEMENT numero(#PCDATA) >
+<!ELEMENT etat("Ouvert","Fermé","Filtré") >

@@ -1,0 +1,12 @@
+<Programme> 		 -> variable <suite de variables>
+<suite de variables>	 -> <declaration de variable>;|<declaration de variable>;<suite de variables>
+<declaration de variable>-> <identificateur>:Integer;|<identificateur>:<Type>
+<Type>                   -> Integer
+
+<Affectation> 		 -> variable <- <valeur>
+<valeur> 		 -> <nombre positif>|<signe><nombre negatif>
+<signe>         	 -> -
+<Appel_Fonction> 	 -> <Fonction(variable)
+<Addition>		 -> <Variable> + <variable>
+<Boucle>		 -> POUR <variable> de <valeur> A <valeur> faire <instruction> Fin POUR
+  

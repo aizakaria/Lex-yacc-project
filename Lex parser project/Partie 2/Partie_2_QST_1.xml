@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE QSt_1 SYSTEM "QSt_1.dtd">
+<Reseaux>
+<Hote>
+<Adresse_IP>168.212.226.204</Adresse_IP>
+<Liste_port>
+<numero>10</numero>
+<etat>Ouvert</etat>
+</Liste_port>
+</Hote>
+</Reseaux>
